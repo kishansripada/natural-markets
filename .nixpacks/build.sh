@@ -1,0 +1,27 @@
+docker build snapshot-target-unpack -f snapshot-target-unpack/.nixpacks/Dockerfile -t 3681e00f-7711-4914-9f2f-7e0c61780c11 --build-arg CI=true --build-arg DATABASE_URL=postgresql://postgres:XVlqPjCGxpbAPFdmRmvMDqCmSwKFCOfD@postgres.railway.internal:5432/railway --build-arg KALSHI_API_KEY_ID=bc3006b3-d91d-4cca-aa41-647eae9e106b --build-arg KALSHI_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA2g/bKKtqlSKD4aS/S7Y/20SzueZ58fFdywihYy0rDr76xFYi
+Q9ToXKickbVs8s2gZh6z/gsYl5St9ASlNx5hiTnL8rUMcEJdiHPSUkC+PLvNV90T
+vxqWDUayExhLYOS5CRH8eADbtoRH9pUT0NgAbxbq4qccKUtViMwToS0p6Kw54532
+/J4leW0W7U4tQoR4OlIpSc/lzxlzQ7sdK3zI/FOK5hkuTcbR39xSEaiX1Y9+m7jX
+Oep7Jl3vDWbSjsm6Hh/3LqBkdDlFthmx8/XRa9dgKrOGQJTvFAqQ51Vc0ve/j7uI
+kNW3u6NkZqEmb3WPuJN/Zim1rXNI6W8OEc4ZDQIDAQABAoIBABVrMcpqne80ovIW
+udCAwAB0XNfxdsBoRh9zg1Cnxt8trJl84WQ6xTEWwbxBLwihYHQvZ1wYcGuxJ638
+h9Lkac2uDuWR2X0sU54bzEiWgekaxEZxWWdvv9XhgAvGmt7TUIZ+zQbnhK1GjIAA
+sB/XG6HNxTgKlIZM10O20eXGtyNamun65YglcFkdHGfhkNE46mgZsnLro+e/PKZl
+byskAwdpgWRvBhPjNU9vImYiSH3ExGnW82bzwW0GRG17uOkhqgodSh1VHmpm5Vk2
+Y7FIOZi1vJvqQuhjArFztvHs6OLBA/F6fpvVMn0Kmj0beK2kHJONa12CmruN/6ny
+2ckJh1kCgYEA9PjUMqz3d8nNCMztaaa/HqXYYaO8KCDE/AzxEfraW/OA3nJYcZ6G
+1OUM7glQC4asvpxLMTHlB3wa9nfEaMn/v2qTkW90HXvyJyU2DdIFbbRgCjCeK024
+c9Nl52P18fgn5a7rSObhtf6nGfZQU95RAM57ViUa7DZarAfB5vaNCpkCgYEA4+Dn
+PB9BAqtXfyiuSPNr4q5uNIzZshzhfS8XNkQp4XhF3GzlacLBRxzQfbPUnGmPZdki
++TiVFKqziauH7njguFivItdfbfjVBgEtGO+V3HyBiKLOfB6jxLJQtwJPSfCURR1B
+EYyXgJmtaJ/pCQFwB8EprCo95KF4YvsMUcrhHpUCgYBNvcGpq1aFf1dAGbimNLKm
+ST9YDRwjJ/MbggfnCtLNJ4OYFHWY6RQk7+OgjvgGEGE1xGfgXtMuAuaTnQKJtsEg
+v/PAzbvtt23rmlWDIUlzvTBVS4SGfY2xxD6spf5hIb2XmGE2q36pwPzKsm5fj0fp
+l51wgyn+GGnB+lxArbGo0QKBgDxcxuPWI5JhcLvuOrx4Pou9SNQCu2fC3rgaUTu+
+splXEqpg7iQlwqzjpRanHBqSm7mO2wTJSDRBQ22kUk2JF329gCbqhgzLbSI6DYgd
+bsUI9gcLmUanlxnzYg4YPoiHgb8NEL9lTnxyOM0ODtyj1Nk5AaDpT5vQaeNOPOUt
+qJRBAoGBAMn0IlzKybKF+Y6Po1DudRS4Z9PSOXRbq5BWvf6DrVMQQ7rCCHz2zDTJ
+/1tOUqv2dS9Qc7TQdS2NkxjX4684mA4fa+yd9+iUt33sZZ1kFJ/gFhtf+AGFZv+5
+p7NFwXDUNIg6Sit6FdnvdmKTfKEo49NbGcoP7ysSaYfZLMXO9Qv4
+-----END RSA PRIVATE KEY----- --build-arg NATURAL_AGENT_ID=agt_01a02b0f13dc757db41512ee9d72eb1f --build-arg NATURAL_API_KEY=ak_ntl_prod_3e7nzJTc6VJJkEfe8LJqrmcBHEJV9IJ5NBPJrgroO68 --build-arg NATURAL_PER_TX_LIMIT_CENTS=100000 --build-arg NIXPACKS_METADATA=node --build-arg NIXPACKS_NODE_VERSION=22 --build-arg NODE_ENV=production --build-arg NPM_CONFIG_PRODUCTION=false --build-arg OPENAI_API_KEY=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 --build-arg OPENAI_MODEL=gpt-5.6-luna --build-arg RAILWAY_ENVIRONMENT=production --build-arg RAILWAY_ENVIRONMENT_ID=e2c4ff0d-dfee-4bc5-8bda-26d9e1c57ca7 --build-arg RAILWAY_ENVIRONMENT_NAME=production --build-arg RAILWAY_PRIVATE_DOMAIN=natural-markets.railway.internal --build-arg RAILWAY_PROJECT_ID=f3422d16-c316-41a8-9ea3-237dcb472a42 --build-arg RAILWAY_PROJECT_NAME=natural-markets --build-arg RAILWAY_PUBLIC_DOMAIN=natural-markets-production.up.railway.app --build-arg RAILWAY_SERVICE_ID=0fcc195f-3bb6-4d62-ad03-7dbab720acde --build-arg RAILWAY_SERVICE_NAME=natural-markets --build-arg RAILWAY_SERVICE_NATURAL_MARKETS_URL=natural-markets-production.up.railway.app --build-arg RAILWAY_STATIC_URL=natural-markets-production.up.railway.app --build-arg RAILWAY_VOLUME_ID=0761eac4-d007-424b-8f4c-1c8f4c706359 --build-arg RAILWAY_VOLUME_MOUNT_PATH=/data --build-arg RAILWAY_VOLUME_NAME=natural-markets-volume --build-arg RESOLVE_INTERVAL_MS=60000 --build-arg SLACK_APP_TOKEN=xapp-1-A0BS58KTS3W-11881748042693-78e3b6cb106475765bd7ad9345f22c2d758a34e34a26ae274aa1565a5abfd731 --build-arg SLACK_BOT_TOKEN=xoxb-9251907076434-11881764389621-r3AvPpFXbK8ulIlCExD6k9RE --build-arg STORE_PATH=/data/markets.json
